@@ -22,7 +22,7 @@ import excel from '../assets/excel.png'
 
 const About = () => {
   return (
-    <div id="about" className="w-full px-[12%] py-10 scroll-mt-20 pt-20">
+    <div id="about" className="w-full px-[12%] py-10 scroll-mt-20 pt-5">
     <h4 className="text-center mb-2 text-lg font-Ovo pt-20">Introduction</h4>
     <h2 className="text-center text-5xl font-Ovo">About me</h2>
 
