@@ -46,7 +46,7 @@ const Work = () => {
 
                     <div className="bg-white w-10/12 rounded-md absolute bottom-5 left-1/2 -translate-x-1/2 py-3 px-5 flex items-center justify-between duration-500 group-hover:bottom-7">
                         <div>
-                            <h2 className="font-semibold">Real Estate</h2>
+                            <h2 className="font-semibold">Google Gemini</h2>
                             <p className="text-sm text-gray-700">React JS, Vite, Tailwind CSS</p>
                         </div>
                         <a href="https://gemini-clone-pied-theta.vercel.app/" target="_blank" rel="noopener noreferrer">
