@@ -13,7 +13,6 @@ const Work = () => {
             <div className="grid grid-cols-auto my-10 gap-5 dark:text-black">
 
                 <div className="aspect-square bg-[url('./assets/work-3.png')] bg-no-repeat bg-cover bg-center rounded-lg relative cursor-pointer group">
-
                     <div className="bg-white w-10/12 rounded-md absolute bottom-5 left-1/2 -translate-x-1/2 py-3 px-5 flex items-center justify-between duration-500 group-hover:bottom-7">
                         <div>
                             <h2 className="font-semibold">Food Delivery</h2>
@@ -26,9 +25,8 @@ const Work = () => {
                         </a>
                     </div>
                 </div>
-                
-                <div className="aspect-square bg-[url('./assets/work-6.png')] bg-no-repeat bg-cover bg-center rounded-lg relative cursor-pointer group">
 
+                <div className="aspect-square bg-[url('./assets/work-6.png')] bg-no-repeat bg-cover bg-center rounded-lg relative cursor-pointer group">
                     <div className="bg-white w-10/12 rounded-md absolute bottom-5 left-1/2 -translate-x-1/2 py-3 px-5 flex items-center justify-between duration-500 group-hover:bottom-7">
                         <div>
                             <h2 className="font-semibold">Real Estate</h2>
@@ -42,9 +40,8 @@ const Work = () => {
                     </div>
                 </div>
 
-                
-                <div className="aspect-square bg-[url('./assets/work-8.png')] bg-no-repeat bg-cover bg-center rounded-lg relative cursor-pointer group">
 
+                <div className="aspect-square bg-[url('./assets/work-8.png')] bg-no-repeat bg-cover bg-center rounded-lg relative cursor-pointer group">
                     <div className="bg-white w-10/12 rounded-md absolute bottom-5 left-1/2 -translate-x-1/2 py-3 px-5 flex items-center justify-between duration-500 group-hover:bottom-7">
                         <div>
                             <h2 className="font-semibold">BG Remover</h2>
@@ -59,7 +56,6 @@ const Work = () => {
                 </div>
 
                 <div className="aspect-square bg-[url('./assets/work-9.png')] bg-no-repeat bg-cover bg-center rounded-lg relative cursor-pointer group">
-
                     <div className="bg-white w-10/12 rounded-md absolute bottom-5 left-1/2 -translate-x-1/2 py-3 px-5 flex items-center justify-between duration-500 group-hover:bottom-7">
                         <div>
                             <h2 className="font-semibold">Blogger</h2>
@@ -102,12 +98,16 @@ const Work = () => {
                     </div>
                 </div>
 
-                <div className="aspect-square bg-[url('./assets/work-1.png')] bg-no-repeat bg-cover bg-center rounded-lg relative cursor-pointer group">
+            </div>
+            
 
+            <h3 className="text-center mb-2 text-lg font-Ovo">JS - HTML - CSS - Mini Projects</h3>
+            <div className="grid grid-cols-auto my-10 gap-5 dark:text-black">
+                <div className="aspect-square bg-[url('./assets/work-1.png')] bg-no-repeat bg-cover bg-center rounded-lg relative cursor-pointer group">
                     <div className="bg-white w-10/12 rounded-md absolute bottom-5 left-1/2 -translate-x-1/2 py-3 px-5 flex items-center justify-between duration-500 group-hover:bottom-7">
                         <div>
                             <h2 className="font-semibold">Calculator</h2>
-                            <p className="text-sm text-gray-700">HTML, CSS, JavaScript</p>
+                            <p className="text-sm text-gray-700"></p>
                         </div>
                         <a href="https://calculator-livid-tau.vercel.app/" target="_blank" rel="noopener noreferrer">
                             <div className="border rounded-full border-black w-9 aspect-square flex items-center justify-center shadow-[2px_2px_0_#000] group-hover:bg-lime-300 transition">
@@ -119,11 +119,10 @@ const Work = () => {
                 </div>
 
                 <div className="aspect-square bg-[url('./assets/work-2.png')] bg-no-repeat bg-cover bg-center rounded-lg relative cursor-pointer group">
-
                     <div className="bg-white w-10/12 rounded-md absolute bottom-5 left-1/2 -translate-x-1/2 py-3 px-5 flex items-center justify-between duration-500 group-hover:bottom-7">
                         <div>
                             <h2 className="font-semibold">Drag & Drop</h2>
-                            <p className="text-sm text-gray-700">HTML, CSS, JavaScript</p>
+                            <p className="text-sm text-gray-700"></p>
                         </div>
                         <a href="https://drag-drop-teal-iota.vercel.app/" target="_blank" rel="noopener noreferrer">
                             <div className="border rounded-full border-black w-9 aspect-square flex items-center justify-center shadow-[2px_2px_0_#000] group-hover:bg-lime-300 transition">
@@ -134,11 +133,10 @@ const Work = () => {
                 </div>
 
                 <div className="aspect-square bg-[url('./assets/work-4.png')] bg-no-repeat bg-cover bg-center rounded-lg relative cursor-pointer group">
-
                     <div className="bg-white w-10/12 rounded-md absolute bottom-5 left-1/2 -translate-x-1/2 py-3 px-5 flex items-center justify-between duration-500 group-hover:bottom-7">
                         <div>
                             <h2 className="font-semibold">Daily Quote</h2>
-                            <p className="text-sm text-gray-700">HTML, CSS, JavaScript</p>
+                            <p className="text-sm text-gray-700"></p>
                         </div>
                         <a href="https://daily-quote-eta.vercel.app/" target="_blank" rel="noopener noreferrer">
                             <div className="border rounded-full border-black w-9 aspect-square flex items-center justify-center shadow-[2px_2px_0_#000] group-hover:bg-lime-300 transition">
@@ -149,11 +147,10 @@ const Work = () => {
                 </div>
 
                 <div className="aspect-square bg-[url('./assets/work-5.png')] bg-no-repeat bg-cover bg-center rounded-lg relative cursor-pointer group">
-
                     <div className="bg-white w-10/12 rounded-md absolute bottom-5 left-1/2 -translate-x-1/2 py-3 px-5 flex items-center justify-between duration-500 group-hover:bottom-7">
                         <div>
                             <h2 className="font-semibold">Music Player</h2>
-                            <p className="text-sm text-gray-700">HTML, CSS, JavaScript</p>
+                            <p className="text-sm text-gray-700"></p>
                         </div>
                         <a href="https://music-player-one-flame.vercel.app/" target="_blank" rel="noopener noreferrer">
                             <div className="border rounded-full border-black w-9 aspect-square flex items-center justify-center shadow-[2px_2px_0_#000] group-hover:bg-lime-300 transition">
@@ -163,12 +160,115 @@ const Work = () => {
                     </div>
                 </div>
 
-                <div className="aspect-square bg-[url('./assets/work-10.png')] bg-no-repeat bg-cover bg-center rounded-lg relative cursor-pointer group">
-
+                <div className="aspect-square bg-[url('./assets/work-19.png')] bg-no-repeat bg-cover bg-center rounded-lg relative cursor-pointer group">
                     <div className="bg-white w-10/12 rounded-md absolute bottom-5 left-1/2 -translate-x-1/2 py-3 px-5 flex items-center justify-between duration-500 group-hover:bottom-7">
                         <div>
-                            <h2 className="font-semibold">Netflix Clone</h2>
-                            <p className="text-sm text-gray-700">HTML, CSS, JavaScript</p>
+                            <h2 className="font-semibold">Crypto Page</h2>
+                            <p className="text-sm text-gray-700"></p>
+                        </div>
+                        <a href="https://crypto-webpage-pink.vercel.app/" target="_blank" rel="noopener noreferrer">
+                            <div className="border rounded-full border-black w-9 aspect-square flex items-center justify-center shadow-[2px_2px_0_#000] group-hover:bg-lime-300 transition">
+                                <img src={send_icon} alt="Send Icon" className="w-5" />
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div className="aspect-square bg-[url('./assets/work-20.png')] bg-no-repeat bg-cover bg-center rounded-lg relative cursor-pointer group">
+                    <div className="bg-white w-10/12 rounded-md absolute bottom-5 left-1/2 -translate-x-1/2 py-3 px-5 flex items-center justify-between duration-500 group-hover:bottom-7">
+                        <div>
+                            <h2 className="font-semibold">Digital Clock</h2>
+                            <p className="text-sm text-gray-700"></p>
+                        </div>
+                        <a href="https://digital-clock-roan-theta.vercel.app/" target="_blank" rel="noopener noreferrer">
+                            <div className="border rounded-full border-black w-9 aspect-square flex items-center justify-center shadow-[2px_2px_0_#000] group-hover:bg-lime-300 transition">
+                                <img src={send_icon} alt="Send Icon" className="w-5" />
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                
+                <div className="aspect-square bg-[url('./assets/work-21.png')] bg-no-repeat bg-cover bg-center rounded-lg relative cursor-pointer group">
+                    <div className="bg-white w-10/12 rounded-md absolute bottom-5 left-1/2 -translate-x-1/2 py-3 px-5 flex items-center justify-between duration-500 group-hover:bottom-7">
+                        <div>
+                            <h2 className="font-semibold">Image Search Engine</h2>
+                            <p className="text-sm text-gray-700"></p>
+                        </div>
+                        <a href="https://image-search-flame-eta.vercel.app/" target="_blank" rel="noopener noreferrer">
+                            <div className="border rounded-full border-black w-9 aspect-square flex items-center justify-center shadow-[2px_2px_0_#000] group-hover:bg-lime-300 transition">
+                                <img src={send_icon} alt="Send Icon" className="w-5" />
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div className="aspect-square bg-[url('./assets/work-22.png')] bg-no-repeat bg-cover bg-center rounded-lg relative cursor-pointer group">
+                    <div className="bg-white w-10/12 rounded-md absolute bottom-5 left-1/2 -translate-x-1/2 py-3 px-5 flex items-center justify-between duration-500 group-hover:bottom-7">
+                        <div>
+                            <h2 className="font-semibold">New Year popup</h2>
+                            <p className="text-sm text-gray-700"></p>
+                        </div>
+                        <a href="https://newyear-popup.vercel.app/" target="_blank" rel="noopener noreferrer">
+                            <div className="border rounded-full border-black w-9 aspect-square flex items-center justify-center shadow-[2px_2px_0_#000] group-hover:bg-lime-300 transition">
+                                <img src={send_icon} alt="Send Icon" className="w-5" />
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div className="aspect-square bg-[url('./assets/work-23.png')] bg-no-repeat bg-cover bg-center rounded-lg relative cursor-pointer group">
+                    <div className="bg-white w-10/12 rounded-md absolute bottom-5 left-1/2 -translate-x-1/2 py-3 px-5 flex items-center justify-between duration-500 group-hover:bottom-7">
+                        <div>
+                            <h2 className="font-semibold">Stopwatch</h2>
+                            <p className="text-sm text-gray-700"></p>
+                        </div>
+                        <a href="https://stopwatch-sage-eight.vercel.app/" target="_blank" rel="noopener noreferrer">
+                            <div className="border rounded-full border-black w-9 aspect-square flex items-center justify-center shadow-[2px_2px_0_#000] group-hover:bg-lime-300 transition">
+                                <img src={send_icon} alt="Send Icon" className="w-5" />
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div className="aspect-square bg-[url('./assets/work-24.png')] bg-no-repeat bg-cover bg-center rounded-lg relative cursor-pointer group">
+                    <div className="bg-white w-10/12 rounded-md absolute bottom-5 left-1/2 -translate-x-1/2 py-3 px-5 flex items-center justify-between duration-500 group-hover:bottom-7">
+                        <div>
+                            <h2 className="font-semibold">QR Code Generator</h2>
+                            <p className="text-sm text-gray-700"></p>
+                        </div>
+                        <a href="https://qr-code-generator-nine-bice.vercel.app/" target="_blank" rel="noopener noreferrer">
+                            <div className="border rounded-full border-black w-9 aspect-square flex items-center justify-center shadow-[2px_2px_0_#000] group-hover:bg-lime-300 transition">
+                                <img src={send_icon} alt="Send Icon" className="w-5" />
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div className="aspect-square bg-[url('./assets/work-25.png')] bg-no-repeat bg-cover bg-center rounded-lg relative cursor-pointer group">
+                    <div className="bg-white w-10/12 rounded-md absolute bottom-5 left-1/2 -translate-x-1/2 py-3 px-5 flex items-center justify-between duration-500 group-hover:bottom-7">
+                        <div>
+                            <h2 className="font-semibold">Age Calculator</h2>
+                            <p className="text-sm text-gray-700"></p>
+                        </div>
+                        <a href="https://age-calculator-eight-liard.vercel.app/" target="_blank" rel="noopener noreferrer">
+                            <div className="border rounded-full border-black w-9 aspect-square flex items-center justify-center shadow-[2px_2px_0_#000] group-hover:bg-lime-300 transition">
+                                <img src={send_icon} alt="Send Icon" className="w-5" />
+                            </div>
+                        </a>
+                    </div>
+                </div>
+    
+
+            </div>
+
+            <h4 className="text-center mb-2 text-lg font-Ovo">JS - HTML - CSS - Clone Websites</h4>
+            <div className="grid grid-cols-auto my-10 gap-5 dark:text-black">
+                {/**
+                <div className="aspect-square bg-[url('./assets/work-10.png')] bg-no-repeat bg-cover bg-center rounded-lg relative cursor-pointer group">
+                    <div className="bg-white w-10/12 rounded-md absolute bottom-5 left-1/2 -translate-x-1/2 py-3 px-5 flex items-center justify-between duration-500 group-hover:bottom-7">
+                        <div>
+                            <h2 className="font-semibold">Netflix</h2>
+                            <p className="text-sm text-gray-700"></p>
                         </div>
                         <a href="https://movieflix-pied.vercel.app/" target="_blank" rel="noopener noreferrer">
                             <div className="border rounded-full border-black w-9 aspect-square flex items-center justify-center shadow-[2px_2px_0_#000] group-hover:bg-lime-300 transition">
@@ -177,13 +277,13 @@ const Work = () => {
                         </a>
                     </div>
                 </div>
+                 */}
 
                 <div className="aspect-square bg-[url('./assets/work-11.png')] bg-no-repeat bg-cover bg-center rounded-lg relative cursor-pointer group">
-
                     <div className="bg-white w-10/12 rounded-md absolute bottom-5 left-1/2 -translate-x-1/2 py-3 px-5 flex items-center justify-between duration-500 group-hover:bottom-7">
                         <div>
-                            <h2 className="font-semibold">LinkedIn Clone</h2>
-                            <p className="text-sm text-gray-700">HTML, CSS, JavaScript</p>
+                            <h2 className="font-semibold">LinkedIn</h2>
+                            <p className="text-sm text-gray-700"></p>
                         </div>
                         <a href="https://connect-in-gilt.vercel.app/" target="_blank" rel="noopener noreferrer">
                             <div className="border rounded-full border-black w-9 aspect-square flex items-center justify-center shadow-[2px_2px_0_#000] group-hover:bg-lime-300 transition">
@@ -194,11 +294,10 @@ const Work = () => {
                 </div>
 
                 <div className="aspect-square bg-[url('./assets/work-12.png')] bg-no-repeat bg-cover bg-center rounded-lg relative cursor-pointer group">
-
                     <div className="bg-white w-10/12 rounded-md absolute bottom-5 left-1/2 -translate-x-1/2 py-3 px-5 flex items-center justify-between duration-500 group-hover:bottom-7">
                         <div>
-                            <h2 className="font-semibold">Facebook Clone</h2>
-                            <p className="text-sm text-gray-700">HTML, CSS, JavaScript</p>
+                            <h2 className="font-semibold">Facebook</h2>
+                            <p className="text-sm text-gray-700"></p>
                         </div>
                         <a href="https://social-book-orcin.vercel.app/" target="_blank" rel="noopener noreferrer">
                             <div className="border rounded-full border-black w-9 aspect-square flex items-center justify-center shadow-[2px_2px_0_#000] group-hover:bg-lime-300 transition">
@@ -210,11 +309,10 @@ const Work = () => {
 
 
                 <div className="aspect-square bg-[url('./assets/work-13.png')] bg-no-repeat bg-cover bg-center rounded-lg relative cursor-pointer group">
-
                     <div className="bg-white w-10/12 rounded-md absolute bottom-5 left-1/2 -translate-x-1/2 py-3 px-5 flex items-center justify-between duration-500 group-hover:bottom-7">
                         <div>
-                            <h2 className="font-semibold">Airbnb Clone</h2>
-                            <p className="text-sm text-gray-700">HTML, CSS, JavaScript</p>
+                            <h2 className="font-semibold">Airbnb</h2>
+                            <p className="text-sm text-gray-700"></p>
                         </div>
                         <a href="https://staybnb-nine.vercel.app/" target="_blank" rel="noopener noreferrer">
                             <div className="border rounded-full border-black w-9 aspect-square flex items-center justify-center shadow-[2px_2px_0_#000] group-hover:bg-lime-300 transition">
@@ -225,11 +323,10 @@ const Work = () => {
                 </div>
 
                 <div className="aspect-square bg-[url('./assets/work-14.png')] bg-no-repeat bg-cover bg-center rounded-lg relative cursor-pointer group">
-
                     <div className="bg-white w-10/12 rounded-md absolute bottom-5 left-1/2 -translate-x-1/2 py-3 px-5 flex items-center justify-between duration-500 group-hover:bottom-7">
                         <div>
-                            <h2 className="font-semibold">YouTube Clone</h2>
-                            <p className="text-sm text-gray-700">HTML, CSS, JavaScript</p>
+                            <h2 className="font-semibold">YouTube</h2>
+                            <p className="text-sm text-gray-700"></p>
                         </div>
                         <a href="https://vid-tube-vert.vercel.app/" target="_blank" rel="noopener noreferrer">
                             <div className="border rounded-full border-black w-9 aspect-square flex items-center justify-center shadow-[2px_2px_0_#000] group-hover:bg-lime-300 transition">
@@ -238,28 +335,10 @@ const Work = () => {
                         </a>
                     </div>
                 </div>
-{/**                <div className="aspect-square bg-[url('./assets/work-4.png')] bg-no-repeat bg-cover bg-center rounded-lg relative cursor-pointer group">
-
-                    <div className="bg-white w-10/12 rounded-md absolute bottom-5 left-1/2 -translate-x-1/2 py-3 px-5 flex items-center justify-between duration-500 group-hover:bottom-7">
-                        <div>
-                            <h2 className="font-semibold">UI/UX designing</h2>
-                            <p className="text-sm text-gray-700">UI/UX Design</p>
-                        </div>
-                        <div className="border rounded-full border-black w-9 aspect-square flex items-center justify-center shadow-[2px_2px_0_#000] group-hover:bg-lime-300 transition">
-                            <img src={send_icon} alt="" className="w-5" />
-                        </div>
-                    </div>
-                </div>
-*/}                
             </div>
-{/** 
-            <a href="#" className="w-max flex items-center justify-center gap-2 text-gray-700 border-[0.5px] border-gray-700 rounded-full py-3 px-10 mx-auto my-20 hover:bg-lightHover duration-500
-    dark:text-white dark:border-white dark:hover:bg-darkHover">Show more
-                <img src={right_arrow_blod} alt="" className="w-4 dark:hidden" />
-                <img src={right_arrow_blod_dark} alt="" className="w-4 hidden dark:block" />
-            </a>
-*/}
+
         </div>
+
     )
 }
 
